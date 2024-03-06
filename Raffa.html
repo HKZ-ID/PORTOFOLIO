@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Aldi Raffa Wibawa</title>
+    <style>
+        body {
+            background-image: url('back.png');
+            background-size: cover; 
+            background-repeat: no-repeat; 
+            background-position: center; 
+        }
+
+        .container, .container2, .container3 {
+            max-width: 480px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            border: 2px solid gray;
+        }
+
+        .container {
+            background-color: rgba(255, 255, 255, 70%);
+        }
+
+        .container2 {
+            background-color: rgba(255, 255, 255, 0.75);
+        }
+
+        .container3 {
+            background-color: rgba(55, 55, 55, 75%);
+        }
+
+        .profile-img {
+            width: 50%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 5%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .profile-vid {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 5%;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .social-media a {
+            margin-right: 10px;
+            text-decoration: none;
+            color: #000000;
+            background-color: #E1D9D1;
+            padding: 5px 1px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-media a:hover {
+            background-color: #ddd;
+        }
+
+        ul {
+            text-align: center;
+            padding-left: 0;
+        }
+
+        li {
+            text-align: left;
+            margin-left: 20px;
+            list-style: square;
+        }
+
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .social-links a {
+            text-align: center;
+            margin: 10px;
+            max-width: 100px;
+            flex-grow: 1;
+        }
+
+        @media screen and (max-width: 600px) {
+            .social-links a {
+                margin: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container3">
+        <div class="container">
+            <hr><h1><strong>About Me</strong></h1><hr>
+        </div>
+
+        <div class="container2">
+            <hr><img class="profile-img" src="foto.png" alt="Foto Aldi Raffa Wibawa">
+            <p><strong>Halo!</strong> </p>
+            <p>Namaku <strong>Aldi Raffa Wibawa!</strong></p>
+            <p>Aku lahir di <strong>Surabaya</strong> pada tanggal 25 April tahun 2006</p>
+            <p>Saat ini aku bersekolah di <strong>SMKN 3 SURABAYA</strong></p><hr>
+            <br>
+            <h2>Fakta Menarik</h2>
+            <ul>
+                <li>Tinggi badanku 159 CM dan berat badanku 44 KG.</li>
+                <li>Anak kedua dari dua bersaudara.</li>
+                <li>MBTI : ISFJ.</li>
+                <li>Neurodivergent. :)</li>
+                <li>Tidak punya hobi spesifik tapi aku senang melakukan Journaling.</li>
+                <li><s>Bisa makan apapun pakai Mayonnaise.</s></li>
+                <li>Film favorit: <i>Interstellar.</i></li>
+                <li>Series favorit: <i>House, M.D.</i></li>
+                <li>Lagu favorit: <i>from Y to Y</i></li>
+                <li>Penggemar game bergenre <strong>Bullet Hell</strong> dan <strong>Rhythm.</strong></li>
+            </ul><br><hr>
+            
+            <div class="social-media">
+                <h2>Sosial Media</h2>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/aldi_raffaa" target="_blank" style="border-radius: 5%;">
+                        <i class='bx bxl-instagram' ></i><br>Instagram
+                    </a>
+                    <a href="https://www.youtube.com/channel/UCZ-APZiLxJTG6S-d9bGXDiQ" target="_blank" style="border-radius: 5%;">
+                        <i class='bx bxl-youtube' ></i><br>YouTube
+                    </a>
+                    <a href="https://discord.com/users/576534338456256562" target="_blank" style="border-radius: 5%;">
+                        <i class='bx bxl-discord-alt' ></i><br>Discord
+                    </a>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="container2">
+            <hr><h1>Fakta menarik lain</h1>
+            <p>Seperti yang sebelumnya aku bilang, aku penggemar game Bullet Hell!</p>
+            <p>Terutama series <strong>Touhou Project.</strong></p>
+            <br>
+            <p>Achievement terbesarku adalah <strong>Lunatic No Bomb 1CC Clear</strong> di Seri Touhou Project yang ke 10- <i>Mountain of Faith</i>, kalian bisa melihat playthrough ku di channel YouTube ku yang tertera diatas.</p>
+            <video class="profile-vid" src="pcb.mp4" controls ></video>
+            <p>Ini adalah contoh gameplayku saat aku berhasil bertahan hidup di <i>Section Final Stage</i> di Seri Touhou Project yang ke 7- <i>Perfect Cherry Blossom</i></p>
+            <br>
+            <hr>
+            <hr>
+            <br>
+        </div>
+    </div>
+
+</body>
+</html>
